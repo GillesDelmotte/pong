@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pong</title>
+</head>
+<body>
+    <h1>Pong</h1>
+    <div class="flex">
+        <div>
+            <p class="title">Width</p>
+            <input type="range" min="1" max="10" value="1" class="canvasWidth">
+        </div>
+        <div>
+            <p class="title">Height</p>
+            <input type="range" min="1" max="10" value="1" class="canvasHeight">
+        </div>
+    </div>
+    <p class="start">Press space to start the game</p>
+    <canvas width="600" height="300" id="game">
+        Votre navigateur ne supporte pas canvas ! désolé
+    </canvas>
+    <a href="index.html" class="new">New Game</a>
+    <script src="./js/bundle.js"></script>
+</body>
+</html>
